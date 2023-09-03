@@ -1,0 +1,75 @@
+ body {
+    font-family: "arial",sans-serif;
+    margin: 0px;
+    background-color:rgb(28, 45, 103);
+    color: white;
+    padding: 20px;
+  }
+ 
+  .App {
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgb(43, 80, 200);
+
+  }
+.navbar {
+  padding: 20px 0px;
+}
+.navbar h1 {
+  margin: 10px;
+}
+ 
+.booklist {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.booklist ul{
+  padding: 0px;
+  list-style-type: none;
+}
+
+.booklist ul li {
+  background-color:  rgb(47, 76, 171);
+  margin: 20px;
+  padding: 10px;
+}
+ .booklist ul li .title-div {
+  font-size: 130%;
+  font-weight: bolder;
+  box-sizing: border-box;
+ }
+
+.booklist ul li:hover {
+  text-decoration: line-through;
+
+}
+
+.book-form {
+  padding: 20px;
+  background-color:  rgb(48, 71, 146);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.book-form input{
+  background-color:  white;
+  width: 70%;
+  display: block;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 10px 0;
+  border: 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.book-form button {
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color:  rgb(47, 76, 171);
+  color: white;
+}
